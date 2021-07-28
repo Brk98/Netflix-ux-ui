@@ -1,0 +1,42 @@
+.lupa > img{
+    width: 15px;
+    position: absolute;
+    top: 6%;
+    left: 43%;
+}
+.navegacion{
+    width: 60%;
+    display: inline-block;
+}
+
+.navegacion li{
+    display: inline-block;
+    margin: 0 10px;
+}
+ul{
+    flex-wrap: nowrap;
+}
+.notificacion{
+    width: 30px;
+    display: none;
+}
+.profile{
+    top: 10px;
+    position: relative;
+    width:40px;
+    height:40px;
+    border-radius:150px;
+}
+.figure-logo{
+    width: 25%;
+}
+.buscador{
+    width: 80%;
+}
+.navegacion{
+    width: 100%;
+    font-size: 1.1rem;
+}
+.buscador::placeholder{
+    font-size: 1.1rem;
+}
